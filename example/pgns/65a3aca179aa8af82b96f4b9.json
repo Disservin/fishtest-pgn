@@ -1,0 +1,89 @@
+{
+    "_id": "65a3aca179aa8af82b96f4b9",
+    "approved": true,
+    "approver": "Disservin",
+    "args": {
+        "adjudication": true,
+        "auto_purge": false,
+        "base_net": "nn-baff1ede1f90.nnue",
+        "base_options": "Hash=64",
+        "base_signature": "1308279",
+        "base_tag": "master",
+        "book": "UHO_Lichess_4852_v1.epd",
+        "book_depth": "8",
+        "info": "Take 8 - Final VLTC Tune Values",
+        "itp": 389.39452820693117,
+        "msg_base": "Remove unused method",
+        "msg_new": "Take 8 - Final VLTC Tune Values",
+        "new_net": "nn-baff1ede1f90.nnue",
+        "new_options": "Hash=64",
+        "new_signature": "1309972",
+        "new_tag": "new109",
+        "new_tc": "60+0.6",
+        "num_games": 800000,
+        "priority": 0,
+        "resolved_base": "cf5b070913755e2aac2a6e827e7abaa91c0b1d35",
+        "resolved_new": "1d952485a8429fd901aaaed033fa1770296b7f1e",
+        "sprt": {
+            "alpha": 0.05,
+            "batch_size": 3,
+            "beta": 0.05,
+            "elo0": 0.5,
+            "elo1": 2.5,
+            "elo_model": "normalized",
+            "llr": -2.9361367629290984,
+            "lower_bound": -2.9444389791664403,
+            "overshoot": {
+                "last_update": 35100,
+                "m0": -2.9361367629290984,
+                "m1": 0.438453471777467,
+                "ref0": -2.9361367629290984,
+                "ref1": 0.438453471777467,
+                "skipped_updates": 0,
+                "sq0": 0.050987894166430944,
+                "sq1": 0.007341746488096767
+            },
+            "state": "rejected",
+            "upper_bound": 2.9444389791664403
+        },
+        "tc": "60+0.6",
+        "tests_repo": "https://github.com/Viren6/Stockfish",
+        "threads": 1,
+        "throughput": 100,
+        "username": "Viren6"
+    },
+    "base_same_as_master": true,
+    "cores": 0,
+    "deleted": false,
+    "failed": false,
+    "finished": true,
+    "is_green": false,
+    "is_yellow": false,
+    "last_updated": "2024-01-15 08:42:40.190000",
+    "rescheduled_from": "65a34a3c79aa8af82b96ed4c",
+    "results": {
+        "crashes": 0,
+        "draws": 35302,
+        "losses": 17499,
+        "pentanomial": [
+            47,
+            8066,
+            18962,
+            7990,
+            35
+        ],
+        "time_losses": 86,
+        "wins": 17399
+    },
+    "results_info": {
+        "info": [
+            "LLR: -2.94 (-2.94,2.94) <0.50,2.50>",
+            "Total: 70200 W: 17399 L: 17499 D: 35302",
+            "Ptnml(0-2): 47, 8066, 18962, 7990, 35"
+        ],
+        "style": "#FF6A6A"
+    },
+    "start_time": "2024-01-14 09:42:57.500000",
+    "tc_base": 60.0,
+    "workers": 0
+}
